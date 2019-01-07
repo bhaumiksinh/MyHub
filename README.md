@@ -27,4 +27,4 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 );
 
-# Thank you
+# Thank you :)
