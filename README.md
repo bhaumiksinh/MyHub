@@ -27,4 +27,7 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 );
 
+#For Test Save Data 
+http://localhost:8080/save-user?uname=ishan&first=ishan&last=bhatt&age=12&pass=123 
+
 # Thank you :) (y)
