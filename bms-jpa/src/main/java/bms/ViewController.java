@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class ViewController {
@@ -19,10 +20,11 @@ public class ViewController {
 		return "hello bapu";
 	}
 	
-	@RequestMapping("welcome")
-	public String welcome() {
-		return "welcome";
-		
+	@ResponseBody
+	@RequestMapping("/welcome")
+	public ModelAndView welcome() {
+		ModelAndView mv = new ModelAndView("welcome");
+		return mv;
 		
 	}
 	
