@@ -1,4 +1,7 @@
 # Spring boot Hibernate JPA connection project 
+# JSP Used for passing data in DAO
+# Bootstrap used
+
 data inserted using CrudRepository
 number files required to add 
 1) UserRespository interface created for save operation
